@@ -3,7 +3,7 @@
 ## BRANCH-IT
 ## SECTION-B1
 ## ROLL NO.-1921085
-![LOGO](https://github.com/gandhiaman001/amanprog/blob/master/logo.jpg)
+![LOGO](https://github.com/raju0202/PPS-PROGRAM/blob/master/logo.jpg)
 # 1.Programs to display a welcome message using puts
 ```C
 #include<stdio.h>
@@ -22,13 +22,13 @@ HELLO TO BUDDING ENGINEERS
 #include<stdio.h>
 int main()
 {
-puts("AMAN KUMAR GANDHI \nITA1 1921008 \nGNDEC LUDHIANA,PUNJAB\n");
+puts("RAJU KUMAR PRASAD \nIT B1 1921085 \nGNDEC LUDHIANA,PUNJAB\n");
 return 0;}
 ``` 
 output of programs 
 ```C
-AMAN KUMAR GANDHI
-ITA1 1921008
+RAJU KUMAR PRASAD
+IT  B1 1921085
 GNDEC LUDHIANA,PUNJAB
 ```
 # 3.programs to find the sum of two number .
