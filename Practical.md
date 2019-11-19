@@ -1,32 +1,38 @@
-PROGRAMMING FOR PROBLEM SOLVING
-NAME-AMAN KUMAR GANDHI
-BRANCH-IT
-SECTION-A1
-ROLL NO.-1921008
-LOGO
-
-1.Programs to display a welcome message using puts
+# **PROGRAMMING FOR PROBLEM SOLVING**
+## NAME-RAJU KUMAR PRASAD
+## BRANCH-IT
+## SECTION-B1
+## ROLL NO.-1921085
+![LOGO](https://github.com/gandhiaman001/amanprog/blob/master/logo.jpg)
+# 1.Programs to display a welcome message using puts
+```C
 #include<stdio.h>
 int main()
 {
 puts("\nHELLO TO BUDDING ENGINEERS\n");
 return 0;
 }
+```
 Output of program
-
+```C
 HELLO TO BUDDING ENGINEERS
-2. programs to display address using puts
+```
+# 2. programs to display address using puts
+```C
 #include<stdio.h>
 int main()
 {
 puts("AMAN KUMAR GANDHI \nITA1 1921008 \nGNDEC LUDHIANA,PUNJAB\n");
 return 0;}
-output of programs
-
+``` 
+output of programs 
+```C
 AMAN KUMAR GANDHI
 ITA1 1921008
 GNDEC LUDHIANA,PUNJAB
-3.programs to find the sum of two number .
+```
+# 3.programs to find the sum of two number .
+```C
 #include <stdio.h>
 int main()
 {
@@ -38,12 +44,15 @@ int main()
     printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
     return 0;
 }
-Output of programs
-
+```
+Output of programs 
+```C
 Enter two integers: 12
 11
 12 + 11 = 23
-4.prorams to convert Centigrate to fahrenheit .
+```
+# 4.prorams to convert Centigrate to fahrenheit .
+```C
 #include<stdio.h>
 int main()
 {
@@ -55,11 +64,14 @@ int main()
 	printf("\nTemperature in Fahrenheit = %f",fah);
 	return 0;
 }
-output of programs
-
+```
+output of programs 
+```C
 Enter the temerature in Celsious : 37
 Temperatur in fahrenheit : 98.599998
-5.programs to find the area and perimeter of circle .
+```
+# 5.programs to find the area and perimeter of circle .
+```C 
 #include<stdio.h>
 int  main()
 {
@@ -72,12 +84,15 @@ int  main()
 	printf("Area of the circle = %f\nCircumference of the circle = %f\n",area,circum);
 	return 0;
 }
+```
 output of programs :
-
+```C
 Enetr the radius of the circle :5
 Area of the circle =78.500000
 Circumference of the circle = 31.400000
-6. program to swap the two number without using third variable .
+```
+# 6. program to swap the two number without using third variable .
+```C
 #include<stdio.h>  
  int main()    
 {    
@@ -89,11 +104,14 @@ a=a-b;//a=20 (30-10)
 printf("\nAfter swap a=%d b=%d",a,b);    
 return 0;  
 }   
+```
 Output:
-
+```C
 Before swap a=10 b=20
 After swap a=20 b=10
-7. programs to check whether even or odd number .
+```
+# 7. programs to check whether even or odd number .
+```C
 #include<stdio.h>
 int main()
 {
@@ -107,11 +125,14 @@ int main()
 	
     return 0;
 }
-Output of programs
-
+```
+Output of programs 
+```C
 Enter any number:4
 It's an even number.
-8.program to find the factorial of the number .
+```
+# 8.program to find the factorial of the number .
+```C
 #include<stdio.h>
 int main()
 {
@@ -124,11 +145,14 @@ int main()
     
     return 0;
 }
-Output the programs
-
+```
+Output the programs 
+```C
 Enter any number:5
 factorial of 5 = 120
-9. programs to fizz buzz
+```
+# 9. programs to fizz buzz
+```C
 #include <stdio.h>
 
 int main(void)
@@ -149,15 +173,18 @@ int main(void)
 
     return 0;
 }
+```
 Output the programs
-
+```C
 1
 2
 fizz
 4
 buzz
 ..........
-10.program to print week of days using switch case
+```
+# 10.program to print week of days using switch case 
+```C
 #include <stdio.h>
 
 int main()
@@ -196,11 +223,14 @@ int main()
 
     return 0;
 }
-Output of programsg
-
+```
+Output of programsg 
+```C
 Input week number(1-7): 2
 Tuesday
-11. program to make a calculator using switch case
+```
+# 11. program to make a calculator using switch case 
+```C
 #include<stdio.h>
 int main() {
     char operator;
@@ -230,13 +260,17 @@ int main() {
     
     return 0;
 }
+```
 Output
-
+```C
 Enter an operator (+, -, *,): *
 Enter two operands: 1.5
 4.5
 1.5 * 4.5 = 6.8
-12. programs to check leap of year
+
+```
+# 12. programs to check leap of year
+```C
 #include <stdio.h>
 int main()
 {
@@ -261,11 +295,15 @@ int main()
     
     return 0;
 }
+```
 Output 1
+```C
 
 Enter a year: 1900
 1900 is not a leap year.
-13. program to check prime number or not
+```
+# 13. program to check prime number or not
+```C
 #include <stdio.h>
 int main()
 {
@@ -295,11 +333,15 @@ int main()
     
     return 0;
 }
+```
 Output
+```C
 
 Enter a positive integer: 29
 29 is a prime number.
-14.program to fibonacci series
+```
+# 14.program to fibonacci series 
+```C
 #include <stdio.h>
 int main()
 {
@@ -316,11 +358,16 @@ int main()
     }
     return 0;
 }
+```
+
 Output
+```C
 
 Enter the number of terms: 10
 Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 
-15. program to print simple matrix in array
+```
+# 15. program to print simple matrix in array   
+```C
 #include <stdio.h>
 int main() {
   int values[5];
@@ -335,8 +382,9 @@ int main() {
   }
   return 0;
 }
+```
 Output
-
+```C
 Enter 5 integers: 1
 -3
 34
@@ -347,7 +395,9 @@ Displaying integers: 1
 34
 0
 3
-16. program to find square of number using function
+```
+# 16. program to find square of number using function 
+```C
 #include<stdio.h>
 
 int square(int); 
@@ -369,11 +419,14 @@ int square(int n)
      
      return(n*n); 
 }
+```
 Output of the Program:
-
+```C
 Enter your number:5
 Square of 5 is 25.
-17.program to swap a number by call by value
+```
+# 17.program to swap a number by call by value 
+```C
 #include <stdio.h>
  
  
@@ -404,8 +457,9 @@ void swap(int a, int b)
    a = temp;
     printf("Values of a and b is %d  %d\n",a,b);
 }
+```
 Output:
-
+```C
 Enter the value of x and y
 Before Swapping
 x = 10
@@ -414,7 +468,9 @@ Values of a and b is 5 10
 After Swapping
 x = 10
 y = 5
-18.program to swap two number by call by reference
+```
+# 18.program to swap two number by call by reference 
+```C
 #include <stdio.h>
  
 int main()
@@ -434,8 +490,9 @@ int main()
  
   return 0;
 }
+```
 The output of the program:
-
+```C
 Enter two integers
 23
 45
@@ -445,7 +502,9 @@ Second integer = 45
 After Swapping
 First integer = 45
 Second integer = 23
-19.program to find factorial of number using recursion
+```
+# 19.program to find factorial of number using recursion 
+```C
 #include<stdio.h>
 int find_factorial(int);
 int main()
@@ -471,8 +530,11 @@ int find_factorial(int n)
    
    return(n*find_factorial(n-1));
 }
+```
 Output:
+```C
 
 Enter any integer number: 4
 
 factorial of 4 is: 24
+```
